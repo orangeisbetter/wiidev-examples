@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "DevKitPro Wii",
+            "includePath": [
+                "${workspaceFolder}/build",
+                "${DEVKITPPC}/include",
+                "${DEVKITPPC}/powerpc-eabi/include",
+                "${DEVKITPPC}/lib/gcc/powerpc-eabi/*/include/",
+                "${DEVKITPRO}/libogc/include",
+                "${DEVKITPRO}/libogc/include/ogc",
+                "${DEVKITPRO}/portlibs/ppc/include",
+                "${DEVKITPRO}/portlibs/wii/include"
+            ],
+            "defines": [
+                "GEKKO",
+                "HW_RVL",
+                "UNICODE",
+                "_UNICODE",
+                "_DEBUG"
+            ],
+            "compilerPath": "${DEVKITPPC}/bin/powerpc-eabi-gcc"
+        }
+    ],
+    "version": 4
+}
